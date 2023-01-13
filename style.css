@@ -1,0 +1,40 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.banner-section {
+    /* background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%); */
+    /* background-image: url(images/donation11.jpg); */
+    background-color: bisque;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.banner-title {
+    color: white;
+    font-size: 65px;
+}
+
+.banner-main a {
+    background-color: tomato;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 5px;
+}
+
+.donation-amount {
+    display: flex;
+}
+
+.amount-item {
+    background-color: #FAFAFA;
+    Width: 135px;
+    Height: 123px
+}
