@@ -3,29 +3,7 @@ body {
     margin: 0;
 }
 
-.banner-section {
-    background-image: url(images/donation11.jpg);
-    background-size: cover;
-    /* background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%); */
-    background-repeat: no-repeat;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* width: 100%; */
-}
-
-.container {
-    width: 80%;
-    text-align: center;
-    margin-bottom: 100px;
-}
-
-.banner-title {
-    color: white;
-    font-size: 65px;
-}
-
+/* Shared Styles */
 .link-button {
     text-decoration: none;
     background-color: tomato;
@@ -37,14 +15,45 @@ body {
     border-radius: 5px;
 }
 
+input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    outline: none;
+}
+
 .flexible-section {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     width: 80%;
     margin: 50px auto;
 }
 
+.section-heading {
+    text-align: center;
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* Banner Styles */
+.banner-section {
+    background-image: url(images/donation11.jpg);
+    background-size: cover;
+    /* background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%); */
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    color: white;
+    font-size: 65px;
+}
+
+/* Donation Styles */
 .donation-amount {
     display: flex;
     margin-top: 50px;
@@ -64,25 +73,10 @@ body {
     Height: 123px
 }
 
-input {
-    width: 100%;
-    padding: 20px;
-    margin-bottom: 40px;
-    border: none;
-    border-bottom: 1px solid #DADADA;
-    outline: none;
-}
-
+/* Donation Plan Styles */
 .plan-main {
     display: flex;
     justify-content: space-between;
-}
-
-.section-heading {
-    text-align: center;
-    color: #121212;
-    font-size: 45px;
-    font-weight: 700;
 }
 
 .plan-items {
@@ -92,19 +86,30 @@ input {
     padding: 10px;
 }
 
+/* Form Styles */
 .input-field {
     width: 809px;
     height: 200px;
     background-color: #FFF4D6;
 }
 
-.join-form{
+.updated-input {
+    width: 80%;
+    margin: 50px 50px;
+}
+
+.join-form {
     width: 70%;
     margin: 0 auto;
 
 }
 
+.join-button {
+    display: flex;
+    justify-content: center;
+}
 
+/* Footer Styles */
 footer {
     background-color: #0B0D17;
     height: 177px;
