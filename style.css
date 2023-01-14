@@ -1,7 +1,5 @@
 body {
     font-family: 'Inter', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
@@ -19,6 +17,8 @@ body {
 
 .container {
     width: 80%;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 .banner-title {
@@ -69,5 +69,22 @@ input{
     border:none;
     border-bottom: 1px solid #DADADA;
     outline: none;
+}
 
+.plan-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-heading{
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.plan-items{
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
 }
